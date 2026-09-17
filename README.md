@@ -13,7 +13,7 @@ The final application uses a Random Forest Regressor, which achieved the best cr
 - `housing_model_bundle.pkl` - Saved Random Forest model and preprocessing information.
 - `requirements.txt` - Required Python packages.
 
-s`yedney_housing_clean.csv` - Dataset
+`syedney_housing_clean.csv` - Dataset
 - 
 - `data_collection/` - Contains the saved Domain HTML pages and `parse_domain_html.py` used to create the dataset.
 
