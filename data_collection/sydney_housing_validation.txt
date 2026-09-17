@@ -1,0 +1,30 @@
+Raw listings extracted: 120
+Clean unique House listings: 112
+
+Randwick: 35 clean rows
+  missing bedrooms: 0
+  missing bathrooms: 0
+  missing car_spaces: 6
+  missing land_size_m2: 16
+  missing sale_date: 0
+  missing sale_price: 0
+  price range: $2,110,000 - $8,005,000
+Parramatta: 37 clean rows
+  missing bedrooms: 0
+  missing bathrooms: 0
+  missing car_spaces: 1
+  missing land_size_m2: 4
+  missing sale_date: 0
+  missing sale_price: 0
+  price range: $830,000 - $3,000,000
+Blacktown: 40 clean rows
+  missing bedrooms: 0
+  missing bathrooms: 0
+  missing car_spaces: 0
+  missing land_size_m2: 8
+  missing sale_date: 0
+  missing sale_price: 0
+  price range: $600,000 - $1,900,000
+
+Cleaning rules: exact expected suburb; NSW; exact property_type == House; numeric sale price; parsed sale date; deduplicate by listing_id.
+Note: land_size_m2 is retained when Domain provides a positive value; missing land size is left blank rather than imputed at collection stage.
